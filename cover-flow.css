@@ -1,0 +1,48 @@
+/*
+	cover-flow 974px
+	cover 700px
+	(974 - 700) / 11 = 25
+*/
+.cover-flow{
+	width: 974px;
+	height: 444px;
+	background-color: #ddd;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.cover-flow .cover{
+	width: 700px;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	transition: left 1s;
+}
+
+.cover-flow .cover.cover-1 { background-color: #111; left: 0;}
+.cover-flow .cover.cover-2 { background-color: #222; left: 25px;}
+.cover-flow .cover.cover-3 { background-color: #333; left: 50px;}
+.cover-flow .cover.cover-4 { background-color: #444; left: 75px;}
+.cover-flow .cover.cover-5 { background-color: #555; left: 100px;}
+.cover-flow .cover.cover-6 { background-color: #666; left: 125px;}
+.cover-flow .cover.cover-7 { background-color: #777; left: 150px;}
+.cover-flow .cover.cover-8 { background-color: #888; left: 175px;}
+.cover-flow .cover.cover-9 { background-color: #999; left: 200px;}
+.cover-flow .cover.cover-10{ background-color: #aaa; left: 225px;}
+.cover-flow .cover.cover-11{ background-color: #bbb; left: 250px;}
+.cover-flow .cover.cover-12{ background-color: #ccc; left: 275px;}
+
+.cover-flow .cover.cover-2.right { left: 700px; }
+.cover-flow .cover.cover-3.right { left: 725px; }
+.cover-flow .cover.cover-4.right { left: 750px; }
+.cover-flow .cover.cover-5.right { left: 775px; }
+.cover-flow .cover.cover-6.right { left: 800px; }
+.cover-flow .cover.cover-7.right { left: 825px; }
+.cover-flow .cover.cover-8.right { left: 850px; }
+.cover-flow .cover.cover-9.right { left: 875px; }
+.cover-flow .cover.cover-10.right{ left: 900px; }
+.cover-flow .cover.cover-11.right{ left: 925px; }
+.cover-flow .cover.cover-12.right{ left: 950px; }
+
+
